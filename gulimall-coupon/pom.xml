@@ -7,6 +7,11 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-coupon</name>
     <description>gulimall-coupon</description>
+    <parent>
+        <artifactId>gulimall</artifactId>
+        <groupId>com.zcy</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,6 +20,11 @@
         <spring-cloud.version>2021.0.5</spring-cloud.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.zcy</groupId>
+            <artifactId>gulimall-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

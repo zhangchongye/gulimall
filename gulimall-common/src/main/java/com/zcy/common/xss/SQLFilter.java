@@ -8,7 +8,7 @@
 
 package com.zcy.common.xss;
 
-import com.zcy.common.exception.RRException;
+import com.zcy.common.utils.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
